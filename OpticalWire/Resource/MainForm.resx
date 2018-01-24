@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bnAddIntensityOngraphic" xml:space="preserve">
+    <value>Add intensity on graphic</value>
+  </data>
+  <data name="bnAppliedFiltr" xml:space="preserve">
+    <value>Apply selected filtr</value>
+  </data>
+  <data name="bnBuildAllDiametr" xml:space="preserve">
+    <value>Build all angle</value>
+  </data>
+  <data name="bnBuildAllInfluence" xml:space="preserve">
+    <value>Build all angle</value>
+  </data>
+  <data name="bnBuildAllintensity" xml:space="preserve">
+    <value>Build all angle</value>
+  </data>
+  <data name="bnBuildDiametr" xml:space="preserve">
+    <value>Build select</value>
+  </data>
+  <data name="bnBuildintensity" xml:space="preserve">
+    <value>Build select</value>
+  </data>
+  <data name="bnBuildSelectinfluence" xml:space="preserve">
+    <value>Build select</value>
+  </data>
+  <data name="bnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="bnClearGraphic" xml:space="preserve">
+    <value>Clear graphics</value>
+  </data>
+  <data name="bnDrawAngle" xml:space="preserve">
+    <value>Draw angle on image</value>
+  </data>
+  <data name="bnHideGraphic" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="bnRemoveAll" xml:space="preserve">
+    <value>Remove all</value>
+  </data>
+  <data name="bnRemoveFromgraphic" xml:space="preserve">
+    <value>Remove select graphics</value>
+  </data>
+  <data name="bnShowGraphic" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="bnWriteToExcel" xml:space="preserve">
+    <value>Write graphics to excel</value>
+  </data>
+  <data name="gbBuildDiametr" xml:space="preserve">
+    <value>Build diametr</value>
+  </data>
+  <data name="gbFiltrs" xml:space="preserve">
+    <value>Filtrs</value>
+  </data>
+  <data name="gbIntensity" xml:space="preserve">
+    <value>Build intensity</value>
+  </data>
+  <data name="gbIntensityAngle" xml:space="preserve">
+    <value>Intensity at angle</value>
+  </data>
+  <data name="gbParametersofGraphics" xml:space="preserve">
+    <value>Parameters of graphics</value>
+  </data>
+  <data name="gbTemperatureInfluense" xml:space="preserve">
+    <value>Influence by temperature</value>
+  </data>
+  <data name="lbAnglemaxDiametr" xml:space="preserve">
+    <value>Angle with max diametr</value>
+  </data>
+  <data name="lbAssim" xml:space="preserve">
+    <value>Assimetry</value>
+  </data>
+  <data name="lbDiam" xml:space="preserve">
+    <value>Diametr</value>
+  </data>
+  <data name="lbDiametr" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lbExc" xml:space="preserve">
+    <value>Excess</value>
+  </data>
+  <data name="lbFiltrName" xml:space="preserve">
+    <value>Select filtr</value>
+  </data>
+  <data name="lbFreeAngle" xml:space="preserve">
+    <value>Free angle</value>
+  </data>
+  <data name="lbFromDiametr" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lbFrominfluence" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lbFromIntensity" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lbMainAngle" xml:space="preserve">
+    <value>Main angle</value>
+  </data>
+  <data name="lbMaxDiametr" xml:space="preserve">
+    <value>Max diametr</value>
+  </data>
+  <data name="lbMaxintensity" xml:space="preserve">
+    <value>Max intensity</value>
+  </data>
+  <data name="lbSelectGraph" xml:space="preserve">
+    <value>Select graphics</value>
+  </data>
+  <data name="lbSelectGraphic" xml:space="preserve">
+    <value>Select graphics</value>
+  </data>
+  <data name="lbToInfluence" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lbTointensity" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="FormText" xml:space="preserve">
+    <value>APSCOS - Main windows</value>
+  </data>
+  <data name="lbCoefficienIn" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="lbCoefficienOut" xml:space="preserve">
+    <value>n1</value>
+  </data>
+  <data name="ZGintencityTop" xml:space="preserve">
+    <value>Intensity of distribution PCF</value>
+  </data>
+  <data name="ZGintencityX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="ZGintencityY" xml:space="preserve">
+    <value>Normalized intensity of distribution</value>
+  </data>
+  <data name="ZGDiametrTop" xml:space="preserve">
+    <value>Influence diametrs of PCF by angle</value>
+  </data>
+  <data name="ZGDiametrX" xml:space="preserve">
+    <value>Angle of rotation, grad</value>
+  </data>
+  <data name="ZGDiametrY" xml:space="preserve">
+    <value>Normalize diamert PCF</value>
+  </data>
+  <data name="chBShouldNormalise" xml:space="preserve">
+    <value>Should normalize value?</value>
+  </data>
+  <data name="chb0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chb45" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="chb90" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="lbWidthWall" xml:space="preserve">
+    <value>Wall width</value>
+  </data>
+  <data name="ZGTemperatureTopic" xml:space="preserve">
+    <value>Influense from temperature</value>
+  </data>
+  <data name="ZGTemperatureX" xml:space="preserve">
+    <value>T, C grad</value>
+  </data>
+  <data name="ZGTemperatureY" xml:space="preserve">
+    <value>λ ,nm</value>
+  </data>
+</root>
